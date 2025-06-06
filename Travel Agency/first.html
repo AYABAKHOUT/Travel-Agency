@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Travel Agency</title>
+</head>
+<body>
+
+   <!-- Navigation Bar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Travel Agency</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#first.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#search">
+                       <img src="tool.png" width="20px" height="20px" ><input type="text">
+                    </a>
+                </li>
+               
+<!-- Dropdown Menu with Images for Countries -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="countriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Countries
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="countriesDropdown">
+        <li><a class="dropdown-item" href="#">Morocco</a></li>
+        <li><a class="dropdown-item" href="#">USA</a></li>
+        <li><a class="dropdown-item" href="#">France</a></li>
+        <li><a class="dropdown-item" href="#">Japan</a></li>
+        <li><a class="dropdown-item" href="#">Germany</a></li>
+        <li><a class="dropdown-item" href="#">Italy</a></li>
+    </ul>
+</li>
+
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="#login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   
+<!-- Banner -->
+<div class="banner">
+    <h2>Welcome to Aya & Salma Traveling Agency</h2>
+</div>
+
+<img src="pic.1.jpeg">
+    <div class="hero">
+        <h1>Traveling Agency</h1>
+        <p>Discover the world with unforgettable experiences</p>
+        <a href="#booking" class="btn btn-primary">Book Your Adventure</a>
+    </div>
+
+
+<!-- Booking Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Book Your Stay</h2>
+
+    <form action="/search" method="POST" class="booking-form">
+        <div class="row">
+            <!-- Destination (City) -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <input type="text" class="form-control" id="destination" name="destination" placeholder="Enter destination" required>
+                </div>
+            </div>
+
+            <!-- Check-in Date -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="checkin">Check-in</label>
+                    <input type="date" class="form-control" id="checkin" name="checkin" required>
+                </div>
+            </div>
+
+            <!-- Check-out Date -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="checkout">Check-out</label>
+                    <input type="date" class="form-control" id="checkout" name="checkout" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Number of Guests -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select class="form-control" id="guests" name="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Number of Rooms -->
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="rooms">Rooms</label>
+                    <select class="form-control" id="rooms" name="rooms">
+                        <option value="1">1 Room</option>
+                        <option value="2">2 Rooms</option>
+                        <option value="3">3 Rooms</option>
+                        <option value="4">4 Rooms</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Search Button -->
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary btn-block">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="morocco.jpeg" class="card-img-top" alt="Card image morocco">
+      <div class="card-body">
+        <h5 class="card-title">Morocco</h5>
+        <p class="card-text">click the button to discover the cities in morocco</p>
+        
+        <a href="maroc.html" class="btn btn-primary">Discover more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="USA.avif" class="card-img-top" alt="Card image morocco">
+      <div class="card-body">
+        <h5 class="card-title">USA</h5>
+        <p class="card-text">click the button to discover THE USA</p>
+        
+        <a href="usa.html" class="btn btn-primary">Discover more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="France.jpeg" class="card-img-top" alt="Card image morocco">
+      <div class="card-body">
+        <h5 class="card-title">France</h5>
+        <p class="card-text">click the button to discover France</p>
+        
+        <a href="france.html" class="btn btn-primary">Discover more</a>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+
+  <div class="container mt-5">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+      <img src="japan.jpeg" class="card-img-top" alt="Card image morocco">
+      <div class="card-body">
+        <h5 class="card-title">Japan</h5>
+        <p class="card-text">click the button to discover Japan</p>
+        
+        <a href="japan.html" class="btn btn-primary">Discover more</a>
+      </div>
+    </div>
+</div>
+
+    <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+        <img src="germany.jpeg" class="card-img-top" alt="Card image morocco">
+        <div class="card-body">
+          <h5 class="card-title">Germany</h5>
+          <p class="card-text">click the button to discover Germany</p>
+          
+          <a href="almanya.html" class="btn btn-primary">Discover more</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="italy.jpeg" class="card-img-top" alt="Card image morocco">
+        <div class="card-body">
+          <h5 class="card-title">Italy</h5>
+          <p class="card-text">click the button to discover Italy</p>
+          
+          <a href="italy.html" class="btn btn-primary">Discover more</a>
+        </div>
+      </div>
+</div>
+  </div></div>
+
+
+
+
+
+  <!-- Footer Section -->
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Column 1: About Us -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>Discover the world with Aya & Salma Traveling Agency. We offer unforgettable travel experiences to amazing destinations worldwide.</p>
+            </div>
+            
+            <!-- Column 2: Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white">Home</a></li>
+                    <li><a href="#booking" class="text-white">Booking</a></li>
+                    <li><a href="#contact" class="text-white">Contact</a></li>
+                    <li><a href="#about" class="text-white">About</a></li>
+                </ul>
+            </div>
+            
+            <!-- Column 3: Contact -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: ayasalma@gmail.com</p>
+                <p>Phone: +212604000000</p>
+                <p>Address: casablanca,Morocco</p>
+            </div>
+        </div>
+        
+        <hr class="my-4">
+        
+        <div class="row">
+           
+
+        <!-- Copyright Section -->
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Aya & Salma Traveling Agency. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html> 

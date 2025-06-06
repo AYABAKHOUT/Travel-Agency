@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="usa.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Travel Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#luxury">Luxury Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#medium">Medium Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cheap">Cheap Hotels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Title -->
+    <div class="container mt-5">
+        <h1 class="text-center section-title mb-5">Our Hotel Selection</h1>
+    </div>
+
+    <!-- Luxury Hotels Section -->
+    <div id="luxury" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Luxury Hotels</h2>
+        <div class="row">
+            <!-- Hotel 1 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="Ritz.jpeg" class="card-img-top" alt="Hotel 1">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.bing.com/aclk?ld=e8zz8IZX9MDcQluk1Geu7nhzVUCUw1zAcDAfwDLCf-zuh6bOHi8JZvTmKpIBMRppzPFrf_j8hARlf6iuYslYcuGawThqIgnMfvX8WrMmxE03NW-4f_gPGtOhSeQQGCnqlmzjdaOFZHQpn9I-XxIImUYjuTRPtPJC6HpUa9SNRk1VOlAXnkgnSQLxaHfJF9SGWeMCGKvA&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFycmlvdHQuY29tJTJmc2VhcmNoJTJmc3VibWl0U2VhcmNoLm1pJTNmc2VhcmNoVHlwZSUzZEluQ2l0eSUyNmRlc3RpbmF0aW9uQWRkcmVzcy5jaXR5JTNkTmV3JTI1MjBZb3JrJTI2ZGVzdGluYXRpb25BZGRyZXNzLnN0YXRlUHJvdmluY2UlM2ROWSUyNmRlc3RpbmF0aW9uQWRkcmVzcy5jb3VudHJ5JTNkVVMlMjZtYXJyaW90dEJyYW5kcyUzZFJaJTI2c2hvd01vcmUlM2R0cnVlJTI2bnN0JTNkcGFpZCUyNmNpZCUzZFBBSV9HTEIwMDA0RlA4X0dMRTAwMEJNNldfR0xGMDAwT1BEUyUyNnBwYyUzZHBwYyUyNnBJZCUzZGNvcnBpbWVkaWElMjZnY2xpZCUzZDMxMjZiNTM5MWFkOTExMzlhMjY4ZDIwMWFmZTgwYTNhJTI2Z2Nsc3JjJTNkM3AuZHMlMjY&rlid=3126b5391ad91139a268d201afe80a3a&ntb=1" target="_blank">
+                            The Ritz-Carlton, New York City</a></h5>
+                        <p class="card-text"> Located in the heart of New York City, The Ritz-Carlton offers luxurious accommodations, exceptional service, and elegant rooms with views of Central Park. Ideal for travelers seeking opulence and world-class amenities.
+                        </p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $800 - $2,500 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 2 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="four seasons.jpeg" class="card-img-top" alt="Hotel 2"  height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.fourseasons.com/maui/" target="_blank">four seasons Resort, Maui</a></h5>
+                        <p class="card-text">This luxury resort in Maui features stunning oceanfront rooms, private pools, and top-tier dining. It’s perfect for a relaxing tropical getaway, offering world-class amenities, a spa, and breathtaking views of the Pacific Ocean.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:$1,000 - $5,000 per night 
+')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 3 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="aspen.jpeg" class="card-img-top" alt="Hotel 3">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.marriott.com/hotels/travel/asexr-the-st-regis-aspen-resort/" target="_blank"> The St. Regis, Aspen</a></h5>
+                        <p class="card-text">Nestled in the Colorado Rockies, The St. Regis offers ski-in/ski-out access, spacious rooms with fireplaces, and unparalleled service. A favorite among celebrities, it provides an ultimate luxury experience in Aspen.
+
+                        </p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $1,200 - $4,000 per night 
+')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medium Hotels Section -->
+    <div id="medium" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Medium Hotels</h2>
+        <div class="row">
+            <!-- Hotel 4 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="san francisco.jpeg" class="card-img-top" alt="Hotel 4">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/san-francisco/sfoxi/hoteldetail" target="_blank">Holiday Inn Express, San Francisco</a></h5>
+                        <p class="card-text"> A budget-friendly option in the heart of San Francisco, this hotel offers comfortable rooms, a free breakfast, and a great location near Fisherman’s Wharf, making it ideal for tourists who want a balance of comfort and convenience.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $150 - $300 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 5 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="los angelos.jpeg" class="card-img-top" alt="Hotel 5">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.hyatt.com/en-US/hotel/california/hyatt-place-los-angeles/laxzl" target="_blank">Hyatt Place, Los Angeles</a></h5>
+                        <p class="card-text"> This modern hotel offers spacious rooms with a contemporary design and a convenient location near downtown Los Angeles. With easy access to Hollywood and Santa Monica, it’s perfect for families and business travelers alike.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:$180 - $350 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 6 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="chicago.jpeg" class="card-img-top" alt="Hotel 6">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.marriott.com/hotels/travel/chilp-courtyard-chicago-downtown-river-north/" target="_blank">Courtyard by Marriott, Chicago</a></h5>
+                        <p class="card-text">Offering comfortable and affordable accommodations in Chicago’s Loop, this hotel is ideal for both business and leisure travelers. It’s centrally located near Millennium Park, museums, and popular shopping districts.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $180 - $350 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cheap Hotels Section -->
+    <div id="cheap" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Cheap Hotels</h2>
+        <div class="row">
+            <!-- Hotel 7 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="las vegas 2.jpeg" class="card-img-top" alt="Hotel 7">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.motel6.com/en/home/motels.nv.las-vegas.5038.html" target="_blank">Motel 6, Las Vegas</a></h5>
+                        <p class="card-text">A budget-friendly option in Las Vegas, Motel 6 offers simple rooms with basic amenities. It’s located near the Las Vegas Strip, making it a convenient choice for budget-conscious travelers.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:$40 - $80 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 8 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="orlando.jpeg" class="card-img-top" alt="Hotel 8">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.wyndhamhotels.com/super-8/orlando-florida" target="_blank">Super 8 by Wyndham, Orlando</a></h5>
+                        <p class="card-text"> Located near Walt Disney World, this affordable hotel provides clean rooms and basic amenities at a great price. Ideal for families visiting Orlando’s theme parks on a budget.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $60 - $120 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 9 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="new york.jpeg" class="card-img-top" alt="Hotel 9">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.choicehotels.com/econo-lodge" target="_blank">Econo Lodge, New York</a></h5>
+                        <p class="card-text">Offering affordable accommodations with easy access to Manhattan, the Econo Lodge is a practical choice for those seeking budget-friendly stays. It’s close to subway stations, making it easy to explore the city’s iconic attractions.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: $90 - $150 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

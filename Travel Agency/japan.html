@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="usa.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Travel Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#luxury">Luxury Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#medium">Medium Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cheap">Cheap Hotels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Title -->
+    <div class="container mt-5">
+        <h1 class="text-center section-title mb-5">Our Hotel Selection</h1>
+    </div>
+
+    <!-- Luxury Hotels Section -->
+    <div id="luxury" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Luxury Hotels</h2>
+        <div class="row">
+            <!-- Hotel 1 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="japanpic1.avif" class="card-img-top" alt="Hotel 1">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.ritzcarlton.com/en/hotels/japan/tokyo" target="_blank">
+                            The Ritz-Carlton, Tokyo</a></h5>
+                        <p class="card-text">  Enjoy stunning panoramic views of Tokyo from this high-end hotel located in the bustling Roppongi district.
+                        </p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: Starting from $900 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 2 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="japan pic2.jpeg" class="card-img-top" alt="Hotel 2"  height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.aman.com/resorts/aman-tokyo" target="_blank">Aman Tokyo</a></h5>
+                        <p class="card-text"> Experience serene luxury at Aman Tokyo, a tranquil retreat in the heart of the city with elegant minimalist design.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:Starting from $1,000 per night 
+')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 3 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="japan pic3.webp" class="card-img-top" alt="Hotel 3">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.hyatt.com/en-US/hotel/japan/park-hyatt-tokyo/tyoph" target="_blank">Park Hyatt Tokyo</a></h5>
+                        <p class="card-text"> An iconic hotel known for its sleek design, fine dining, and breathtaking views from the top floors of Shinjuku Park Tower.
+                        </p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:  Starting from $800 per night
+')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medium Hotels Section -->
+    <div id="medium" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Medium Hotels</h2>
+        <div class="row">
+            <!-- Hotel 4 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="jpmed1.jpg" class="card-img-top" alt="Hotel 4">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.hotelmonterey.co.jp/en/kyoto/" target="_blank">Hotel Monterey Kyoto</a></h5>
+                        <p class="card-text"> A charming European-style hotel conveniently located in central Kyoto, blending traditional Japanese and Western styles.
+                        </p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: Starting from $150 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 5 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="picjpmed2.webp" class="card-img-top" alt="Hotel 5">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.granbellhotel.jp/en/shinjuku/" target="_blank">Shinjuku Granbell Hotel</a></h5>
+                        <p class="card-text">  Trendy hotel in Shinjuku with modern rooms and a rooftop bar, ideal for tourists exploring Tokyo’s vibrant nightlife.</p>
+                       
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: Starting from $120 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 6 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="picjpmed3.jpg" class="card-img-top" alt="Hotel 6">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.daiwaroynet.jp/osaka-kitahama/" target="_blank">Daiwa Roynet Hotel Osaka-Kitahama</a></h5>
+                        <p class="card-text"> Comfortable and affordable stay with easy access to Osaka's main attractions and a warm, welcoming atmosphere.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:Starting from $100 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cheap Hotels Section -->
+    <div id="cheap" class="container mt-5">
+        <h2 class="text-center section-title mb-4">Cheap Hotels</h2>
+        <div class="row">
+            <!-- Hotel 7 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="jpcheap1.jpeg" class="card-img-top" alt="Hotel 7">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://kshouse.jp/tokyo-oasis-e/" target="_blank">K's House Tokyo Oasis</a></h5>
+                        <p class="card-text">Budget-friendly hostel offering clean rooms, friendly service, and a communal area in the heart of Asakusa.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:Starting from $40 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 8 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="cheapjp2.JPG" class="card-img-top" alt="Hotel 8">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.anshin-oyado.jp/shinjuku/" target="_blank">Capsule Hotel Anshin Oyado Shinjuku</a></h5>
+                        <p class="card-text"> Unique capsule hotel experience with essential amenities, including a spa and manga library, in the bustling Shinjuku area.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price: Starting from $60 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hotel 9 -->
+            <div class="col-md-4">
+                <div class="card hotel-card">
+                    <img src="jpcheap3.jpg" class="card-img-top" alt="Hotel 9">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.sakura-hotel.co.jp/jimbocho" target="_blank">Sakura Hotel Jimbocho</a></h5>
+                        <p class="card-text">A simple, welcoming hotel with an international atmosphere, perfect for budget travelers in central Tokyo.</p>
+                        <div class="hotel-info">
+                            <p class="hotel-rating">⭐⭐⭐</p>
+                            <button class="btn btn-primary" onclick="alert('Price:Starting from $50 per night')">Show Price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

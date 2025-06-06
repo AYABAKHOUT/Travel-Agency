@@ -1,0 +1,74 @@
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+.hero {
+   
+    height: 100px;
+    color:gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+.booking-form .form-group {
+    margin-bottom: 20px;
+}
+.booking-form button {
+    margin-top: 32px;
+}
+
+/* Footer Custom Styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer .my-4 {
+    border-top: 1px solid #ffffff;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
